@@ -332,6 +332,7 @@
                                     generation time by <em><i>83% (from 30 minutes to 5 minutes per report)</i></em> compared
                                     to existing commercial software and has been used to produce over 10,000
                                     clinical reports to data.
+                                    
                             </li>
                             <li>
                                 <b>TAT Monitoring System:</b> Built an automated pipeline to track Turnaround Time(ATA) by aggregating
@@ -455,6 +456,45 @@
                 <ul class="info-content">
                     <h3 style="text-align: center;">HIPAA-Compliant Clinical Reporting LIMS</h3>
                     <hr/>
+                    <p></p>
+                    <li>
+
+                    <div class="table-title">
+                        Estimated Time Reduction per Case/Report
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Workflow</th>
+                                <th>Previous Method</th>
+                                <th>Time</th>
+                                <th>Spark</th>
+                                <th>Time Saved</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ThermoFisher case</td>
+                                <td>Golden Helix</td>
+                                <td>20 min</td>
+                                <td>3 min</td>
+                                <td>⬇️ 17 min</td>
+                            </tr>
+                            <tr>
+                                <td>illumina liquid biopsy case</td>
+                                <td>Perian workflow (Perian + ICA)</td>
+                                <td>60 min</td>
+                                <td>15 min (Spark + ICI)</td>
+                                <td>⬇️ 45 min</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        *Perian workflow includes: downloading source files via command line from ICA → uploading to Perian → modifying config files → reviewing case → generating PDF → converting to Word → manual reformatting
+                    </div>
+                    </li>
+
                     <li>  Automatically Extract Torrent Server Analysis Metrics via API
                         <figure class="portfolio-figure">
                         <img class="avatar" src="assets/images/Torrent_Server_Analysis.png" width="100%"  alt="Torrent_Server_Analysis">
